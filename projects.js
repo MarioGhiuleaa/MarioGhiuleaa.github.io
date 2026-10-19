@@ -32,6 +32,12 @@ const projects = [
     text: "A taxi app that allows users to book rides, track their drivers, and pay for their trips.",
     image: "assets/img/huberapp.png",
     codeImage: "assets/img/hubercode.png",
+  },{
+    title: "Encyclopedia StarLords",
+    type: "Reference windowapp",
+    text: "A comprehensive encyclopedia for the StarLords universe, featuring characters, planets, and lore.",
+    image: "assets/img/wikiphoto.png",
+    codeImage: "assets/img/wikicode.png",
   }
 ];
 
