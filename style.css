@@ -54,7 +54,7 @@ ul li a:hover::after {
 }
 
 a {
-  color: rgb(0, 0, 0);
+  color: rgb(251, 250, 250);
   text-decoration: none;
 }
 a:hover {
@@ -63,10 +63,12 @@ a:hover {
 }
 .intro .text {
   flex: 1;
+  color: white;
 }
 
 .intro h1 {
   font-size: 3rem;
+  color: white;
 }
 
 .intro p {
