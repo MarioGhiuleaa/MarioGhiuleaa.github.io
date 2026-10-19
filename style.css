@@ -139,6 +139,24 @@ a:hover {
   overflow-y: auto;
 }
 
+.project-section {
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.project-heading {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
 .project-title {
   margin: 0 0 0.25rem;
   font-size: 1.1rem;
