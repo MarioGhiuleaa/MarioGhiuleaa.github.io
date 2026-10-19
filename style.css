@@ -53,6 +53,14 @@ ul li a:hover::after {
   padding: 3rem 2rem;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    transition: width 0.3s ease;
+}
 .intro .text {
   flex: 1;
 }
