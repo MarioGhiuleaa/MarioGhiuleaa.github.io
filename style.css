@@ -96,14 +96,43 @@ a:hover {
   padding: 1rem;
   margin-top: auto;
 }
-
 @media (max-width: 600px) {
+
+  ul {
+    margin: 0;
+    border-radius: 0;
+    flex-wrap: wrap;          
+    justify-content: center;
+  }
+
+  ul li a {
+    padding: 12px 10px;
+    font-size: 0.95rem;
+  }
+
+  ul li a::after {
+    left: 10px;                
+    width: 0;
+  }
+
+  ul li a:hover::after {
+    width: calc(100% - 20px);
+  }
+
+
   .intro {
     flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
   }
 
   .intro h1 {
     font-size: 2rem;
+  }
+
+  .intro p {
+    font-size: 1.1rem;
   }
 
   .intro img {
@@ -111,8 +140,7 @@ a:hover {
     height: 250px;
   }
 
-  ul {
-    margin: 0;
-    border-radius: 0;
+  .profile-link {
+    align-self: center;
   }
 }
