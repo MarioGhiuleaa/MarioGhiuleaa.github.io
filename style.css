@@ -7,6 +7,17 @@ body {
   flex-direction: column;
 }
 
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 1rem auto;
+  padding: 0;
+  max-width: 900px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
 ul li a {
   position: relative;
   display: block;
@@ -30,7 +41,6 @@ ul li a::after {
 ul li a:hover::after {
   width: calc(100% - 32px);
 }
-
 .intro {
   display: flex;
   align-items: center;
