@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: linear-gradient(to right, #3249df, #29e7ee);
+  background: linear-gradient(to right, #3249df, #29e7ee);
 }
 
 ul {
