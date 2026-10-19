@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-image: linear-gradient(to left top, #ffffff, #d4d4d4, #aaabab, #838384, #5d5e5e, #545555, #4b4c4c, #424343, #515252, #606161, #6f7171, #7f8181);
+  background-image: radial-gradient(circle, #5884cb, #8da0d8, #b8bde4, #deddf1, #ffffff);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -3,7 +3,7 @@ const projects = [
     title: "Budget Tracker",
     type: "Finance web app",
     text: "A simple budget tracker app that allows users to track their expenses and income.",
-    image: "assets/img/budgetweb.png",
+    image: "assets/img/budegtweb.png",
     codeImage: "assets/img/budgetcode.png",
   },
   {
@@ -17,8 +17,8 @@ const projects = [
     title: "My Portfolio",
     type: "Personal website",
     text: "A personal portfolio website that showcases my skills, projects, and experience as a web developer.",
-    image: "assets/img/my-portfolio.png",
-    codeImage: "assets/img/my-portfolio-code.png",
+    image: "assets/img/portpage.png",
+    codeImage: "assets/img/my-portcode.png",
   },
   {
     title: "AMBN",
