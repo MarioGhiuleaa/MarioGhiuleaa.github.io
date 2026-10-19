@@ -10,8 +10,8 @@ const projects = [
     title: "Sheffield City Centre",
     type: "Student guide website",
     text: "A website that provides information about the city centre of Sheffield, including attractions, restaurants, and events for international students.",
-    image: "assets/img/sheffield-city-center.png",
-    codeImage: "assets/img/sheffield-city-center-code.png",
+    image: "assets/img/sheffphoto.png",
+    codeImage: "assets/img/sheffcode.png",
   },
   {
     title: "My Portfolio",
