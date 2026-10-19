@@ -18,7 +18,7 @@ const projects = [
     type: "Personal website",
     text: "A personal portfolio website that showcases my skills, projects, and experience as a web developer.",
     image: "assets/img/portpage.png",
-    codeImage: "assets/img/my-portcode.png",
+    codeImage: "assets/img/portcode.png",
   },
   {
     title: "AMBN",
