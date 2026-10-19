@@ -3,8 +3,8 @@ const projects = [
     title: "Budget Tracker",
     type: "Finance web app",
     text: "A simple budget tracker app that allows users to track their expenses and income.",
-    image: "assets/img/budget-tracker.png",
-    codeImage: "assets/img/budget-tracker-code.png",
+    image: "assets/img/budgetweb.png",
+    codeImage: "assets/img/budgetcode.png",
   },
   {
     title: "Sheffield City Centre",
@@ -26,7 +26,13 @@ const projects = [
     text: "A website that provides information about movies, actors and series.",
     image: "assets/img/ambn.png",
     codeImage: "assets/img/ambn-code.png",
-  },
+  },{
+    title: "SHUBER APP",
+    type: "Taxi app",
+    text: "A taxi app that allows users to book rides, track their drivers, and pay for their trips.",
+    image: "assets/img/huberapp.png",
+    codeImage: "assets/img/hubercode.png",
+  }
 ];
 
 const grid = document.getElementById("project-grid");
