@@ -92,12 +92,58 @@ a:hover {
   object-fit: cover;
   border-radius: 50%;
 }
+.project-section {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.project-heading {
+  margin-bottom: 1.5rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.project-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-body {
+  padding: 1rem;
+}
+
+.project-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.project-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
 
 #footer {
   text-align: center;
   padding: 1rem;
   margin-top: auto;
 }
+
 @media (max-width: 600px) {
 
   ul {
