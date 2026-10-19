@@ -82,6 +82,7 @@ a:hover {
 .profile-link:hover {
   transform: scale(1.05);
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 .intro img {
   width: 350px;
