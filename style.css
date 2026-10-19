@@ -119,7 +119,7 @@ a:hover {
   border: 1px solid #e2e2e2;
   border-radius: 8px;
   overflow: hidden;
-  background: #fff;
+  background: #5e5d5d;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
