@@ -25,7 +25,7 @@ const projects = [
     type: "Movies and series website",
     text: "A website that provides information about movies, actors and series.",
     image: "assets/img/ambn.png",
-    codeImage: "assets/img/ambn-code.png",
+    codeImage: "assets/img/ambncode.png",
   },{
     title: "SHUBER APP",
     type: "Taxi app",
