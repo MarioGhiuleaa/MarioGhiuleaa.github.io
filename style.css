@@ -196,12 +196,15 @@ a:hover {
 .contact-info h2 {
   margin-top: 0;
   font-size: 2rem;
+  color: white;
 }
 
 .contact-info p {
-  font-size: 1.1rem;
+  font-size: 2rem;
   line-height: 1.6;
+  color: white;
 }
+
 
 .contact-info a {
   color: #0a66c2;
