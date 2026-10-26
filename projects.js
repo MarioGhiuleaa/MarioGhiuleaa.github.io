@@ -16,26 +16,26 @@ const projects = [
   {
     title: "My Portfolio",
     type: "Personal website",
-    text: "A personal portfolio website that showcases my skills, projects, and experience as a web developer.",
+    text: "A personal portfolio website that showcases my skills, projects, and experience as a web developer and software engineer.",
     image: "assets/img/portpage.png",
     codeImage: "assets/img/portcode.png",
   },
   {
     title: "AMBN",
-    type: "Movies and series website",
-    text: "A website that provides information about movies, actors and series.",
+    type: "Movies and series console app",
+    text: "A console app that provides information about movies, actors and series.",
     image: "assets/img/ambn.png",
     codeImage: "assets/img/ambncode.png",
   },{
-    title: "SHUBER APP",
+    title: "SHUBER APP Admin Panel",
     type: "Taxi app",
-    text: "A taxi app that allows users to book rides, track their drivers, and pay for their trips.",
+    text: "A Admin panel for the SHUBER APP that allows users to modify information and manage the application using SCRUM.",
     image: "assets/img/huberapp.png",
     codeImage: "assets/img/hubercode.png",
   },{
     title: "Encyclopedia StarLords",
-    type: "Reference windowapp",
-    text: "A comprehensive encyclopedia for the StarLords universe, featuring characters, planets, and lore.",
+    type: "Encyclopedia windowapp for a non-existent universe called StarLords",
+    text: "A comprehensive encyclopedia for the StarLords universe, featuring characters, planets, lore and information on how to navigate the universe and gather information abouts the world has to offer.",
     image: "assets/img/wikiphoto.png",
     codeImage: "assets/img/wikicode.png",
   }
