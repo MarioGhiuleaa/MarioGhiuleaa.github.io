@@ -185,25 +185,24 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-
-  ul {
+  .ul {
     margin: 0;
     border-radius: 0;
     flex-wrap: wrap;          
     justify-content: center;
   }
 
-  ul li a {
+  .ul li a {
     padding: 12px 10px;
     font-size: 0.95rem;
   }
 
-  ul li a::after {
+  .ul li a::after {
     left: 10px;                
     width: 0;
   }
 
-  ul li a:hover::after {
+  .ul li a:hover::after {
     width: calc(100% - 20px);
   }
 
@@ -230,5 +229,8 @@ a:hover {
 
   .profile-link {
     align-self: center;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
   }
 }
