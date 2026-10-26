@@ -389,3 +389,121 @@ a:hover {
     scroll-behavior: auto !important;
   }
 }
+
+/* ---------- Skills ---------- */
+.skills-overview {
+  width: 100%;
+  max-width: 1100px;
+  margin: 2rem auto 0;
+  padding: 0 1.5rem;
+}
+
+.skills-overview .project-heading {
+  margin-bottom: 1.25rem;
+}
+
+.skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill-chips a {
+  padding: 0.45rem 1rem;
+  color: var(--text);
+  font-weight: 500;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  text-decoration: none;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.skill-chips a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 4rem;
+}
+
+/* every second skill flips: image left, text right */
+.skill:nth-of-type(even) .img-placeholder,
+.skill:nth-of-type(even) > img {
+  order: -1;
+}
+
+.skill-text h2 {
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+}
+
+.skill-text p {
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.skill-text ul {
+  margin: 1.25rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.skill-text li {
+  margin-bottom: 0.6rem;
+  color: var(--muted);
+}
+
+.skill-text li strong {
+  color: var(--text);
+}
+
+.skill-text code {
+  padding: 0.1rem 0.4rem;
+  font-size: 0.9em;
+  color: var(--accent-2);
+  background: var(--surface-2);
+  border-radius: 6px;
+}
+
+.img-placeholder,
+.skill > img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.img-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  color: var(--muted);
+  background: var(--surface);
+  border: 2px dashed var(--line);
+}
+
+@media (max-width: 800px) {
+  .skill {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2.5rem 1.25rem;
+  }
+
+  /* text first, image below on mobile */
+  .skill:nth-of-type(even) .img-placeholder,
+  .skill:nth-of-type(even) > img {
+    order: 0;
+  }
+}
