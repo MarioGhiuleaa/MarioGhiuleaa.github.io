@@ -278,4 +278,10 @@ a:hover {
   .project-grid {
     grid-template-columns: 1fr;
   }
+  .contact-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
 }
